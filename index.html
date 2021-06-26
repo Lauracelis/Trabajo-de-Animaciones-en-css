@@ -5,24 +5,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/styles.css">
-    <title>Document</title>
+    <!--LLAMADO AL CSS-->
+    <link rel="stylesheet" href="./src/css/Juan.css">
+    <title>ANIMACIONES</title>
 </head>
 
 <body>
-    <title class="Juan">Soy el director de la orquesta</title>
-    <div class="Maria">
-        <a href="src/pages/Maria.html"> <button> ir a Maria</button> </a>
-    </div>
-    <div class="Sofia">
-        <a href="src/pages/Sofia.html"> <button> ir a Sofia</button> </a>
-    </div>
-    <div class="Ana"> <a href="src/pages/Ana.html"> <button> ir a Ana</button> </a>
-    </div>
-    <div class="Juan">
-        <a href="src/pages/Juan.html"> <button> ir a Juan
-    </button> </a>
-    </div>
+   <!--Container Padre-->
+    <div class="container">
+    <!--Cabecera del titulo-->
+        <div class="cabecera">
+            <div class="titulo" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150"
+                    preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 220.93,-33.05 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+                        style="stroke: none; fill: rgb(249, 237, 255);"></path>
+                </svg>
+                <!--Nombre del titulo-->
+                <h1 class="tituloJuan">Laura</h1>
+            </div>
+        </div>
+        <!--Menú de contenido-->
+        <div class="Menu">
+        	<ul>
+        		<li>Giros</li>
+        		<li>Transiciones</li>
+        		<li>Zoom</li>
+        		<li>Animaciones</li>
+        	</ul>
+        </div>
+         <!--Sección de los giros en las cards-->
+        <h2>Giros</h2>
+        <section class="giros">
+            <div class="card2 Giro_completo">
+                Giro Completo
+            </div>
+            <div class="card2 Giro_completo">
+                Giro Completo a la derecha
+            </div>
+            <div class="card2 Giro_completo_left">
+                Giro completo a la izquierda
+            </div>
+            <div class="card2 Medio_Giro">
+                Medio giro
+            </div>
+            <div class="card2 Medio_Giro_Right">
+                Medio giro a la derecha
+            </div>
+            <div class="card2 Medio_Giro_Left">
+                Medio giro a la izquierda
+            </div>
+            <div class="card2 rotated">
+                Giro infinito
+            </div>
+        </section>
+        
+        <h2>Transiciones</h2>
+        <!-- seccion de transiciones en las cards -->
+        <section class="giros">
+            <div class="card2 slideRigth">
+                Llegada desde derecha
+            </div>
+            <div class="card2 slideLeft">
+                Llegada desde izquierda
+            </div>
+            <div class="card2 slideUp">
+                Llegada desde arriba
+            </div>
+            <div class="card2 slideDown">
+                Llegada desde abajo
+            </div>
+        </section>
 </body>
 
 </html>
